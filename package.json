@@ -1,0 +1,40 @@
+{
+  "name": "your-component-name",
+  "version": "1.0.0",
+  "description": "Your Component Name",
+  "repository": {
+    "url": "https://github.com/kishore-devaraj/scrolling-linechart"
+  },
+  "keywords": [
+    "Your Keyword"
+  ],
+  "license": "MIT",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.0.4"
+  },
+  "dependencies": {
+    "react": "^16.0.4",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Kishore Devaraj",
+    "email": "kishoregrylls@gmail.com"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0"
+  }
+}
