@@ -17,12 +17,25 @@ npm install
 npm link
 ```
 
+
+### Import your module in your react code and start using it.
+- Clone the testing project repo
+```
+git clone https://github.com/kishore-devaraj/react-boilerplate
+```
+- Install the required packages
+```
+npm install
+```
+- Change to testing branch
+```
+git checkout test-project
+```
 - Link your modules in the test project
 ```
 npm link <module_name>
 ```
 
-### Import your module in your react code and start using it.
 
 
 ### Publishing it in npm registry
